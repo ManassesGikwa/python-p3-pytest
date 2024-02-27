@@ -80,7 +80,7 @@ Let's use that assertion to drive the development of some working code:
 
 ```console
 >>> def interpolate_welcome(name):
-...     return f'Welcome, {name}!'
+     return f'Welcome, {name}!'
 ...
 >>> assert interpolate_welcome('Guido') == 'Welcome, Guido!'
 ```
